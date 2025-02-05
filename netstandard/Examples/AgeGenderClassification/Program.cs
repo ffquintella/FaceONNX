@@ -1,6 +1,6 @@
 ﻿using FaceONNX;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 using System.IO;
 using System.Linq;
 using UMapx.Core;
@@ -12,7 +12,7 @@ namespace AgeGenderClassification
         static void Main()
         {
             Console.WriteLine("FaceONNX: Age and gender classification");
-            var files = Directory.GetFiles(@"..\..\..\images", "*.*", SearchOption.AllDirectories);
+            var files = Directory.GetFiles(@"../../../images", "*.*", SearchOption.AllDirectories);
             using var faceDetector = new FaceDetector();
             using var faceLandmarksExtractor = new Face68LandmarksExtractor();
             using var faceGenderClassifier = new FaceGenderClassifier();

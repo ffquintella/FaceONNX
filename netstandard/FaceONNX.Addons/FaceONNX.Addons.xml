@@ -25,7 +25,7 @@
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceAgeEstimator.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceAgeEstimator.Forward(System.Single[0:,0:][])">
@@ -60,7 +60,7 @@
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceBeautyEstimator.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceBeautyEstimator.Forward(System.Single[0:,0:][])">
@@ -100,7 +100,7 @@
             Returns the labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceEmotionClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceEmotionClassifier.Forward(System.Single[0:,0:][])">
@@ -140,7 +140,7 @@
             Returns the labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceGenderClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceGenderClassifier.Forward(System.Single[0:,0:][])">

@@ -25,7 +25,7 @@
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.EyeBlinkClassifier.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.EyeBlinkClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.EyeBlinkClassifier.Forward(System.Single[0:,0:][])">
@@ -60,13 +60,13 @@
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Boolean)">
+        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(SkiaDrawing.Bitmap,SkiaDrawing.Rectangle,System.Boolean)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(System.Single[0:,0:][],System.Drawing.Rectangle,System.Boolean)">
+        <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(System.Single[0:,0:][],SkiaDrawing.Rectangle,System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.Face68LandmarksExtractor.Forward(System.Single[0:,0:][])">
@@ -106,7 +106,7 @@
             Returns the labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceDepthClassifier.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceDepthClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceDepthClassifier.Forward(System.Single[0:,0:][])">
@@ -161,7 +161,7 @@
             Gets labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceDetector.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceDetector.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceDetector.Forward(System.Single[0:,0:][])">
@@ -204,7 +204,7 @@
             Returns size of the embedding vector.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceEmbedder.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.FaceEmbedder.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
         <member name="M:FaceONNX.FaceEmbedder.Forward(System.Single[0:,0:][])">
@@ -223,7 +223,7 @@
             Using for face processing.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceProcessingExtensions.Align(System.Drawing.Bitmap,System.Single)">
+        <member name="M:FaceONNX.FaceProcessingExtensions.Align(SkiaDrawing.Bitmap,System.Single)">
             <summary>
             Returns aligned face.
             </summary>
@@ -231,7 +231,7 @@
             <param name="angle">Angle</param>
             <returns>Bitmap</returns>
         </member>
-        <member name="M:FaceONNX.FaceProcessingExtensions.Align(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Single,System.Boolean)">
+        <member name="M:FaceONNX.FaceProcessingExtensions.Align(SkiaDrawing.Bitmap,SkiaDrawing.Rectangle,System.Single,System.Boolean)">
             <summary>
             Returns aligned face.
             </summary>
@@ -249,7 +249,7 @@
             <param name="angle">Angle</param>
             <returns>Image in BGR terms</returns>
         </member>
-        <member name="M:FaceONNX.FaceProcessingExtensions.Align(System.Single[0:,0:][],System.Drawing.Rectangle,System.Single,System.Boolean)">
+        <member name="M:FaceONNX.FaceProcessingExtensions.Align(System.Single[0:,0:][],SkiaDrawing.Rectangle,System.Single,System.Boolean)">
             <summary>
             Returns aligned face.
             </summary>
@@ -264,14 +264,14 @@
             Defines face 68 landmarks extractor interface.
             </summary>
         </member>
-        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(SkiaDrawing.Bitmap)">
             <summary>
             Returns face recognition results.
             </summary>
             <param name="image">Bitmap</param>
             <returns>FaceLandmarks</returns>
         </member>
-        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Boolean)">
+        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(SkiaDrawing.Bitmap,SkiaDrawing.Rectangle,System.Boolean)">
             <summary>
             Returns face recognition results.
             </summary>
@@ -287,7 +287,7 @@
             <param name="image">Image in BGR terms</param>
             <returns>FaceLandmarks</returns>
         </member>
-        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(System.Single[0:,0:][],System.Drawing.Rectangle,System.Boolean)">
+        <member name="M:FaceONNX.IFace68LandmarksExtractor.Forward(System.Single[0:,0:][],SkiaDrawing.Rectangle,System.Boolean)">
             <summary>
             Returns face recognition results.
             </summary>
@@ -301,7 +301,7 @@
             Defines face classifier interface.
             </summary>
         </member>
-        <member name="M:FaceONNX.IFaceClassifier.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.IFaceClassifier.Forward(SkiaDrawing.Bitmap)">
             <summary>
             Returns face recognition results.
             </summary>
@@ -330,7 +330,7 @@
             Gets or sets NonMaxSuppression threshold.
             </summary>
         </member>
-        <member name="M:FaceONNX.IFaceDetector.Forward(System.Drawing.Bitmap)">
+        <member name="M:FaceONNX.IFaceDetector.Forward(SkiaDrawing.Bitmap)">
             <summary>
             Returns face detection results.
             </summary>
@@ -362,7 +362,7 @@
             Using for operations with points.
             </summary>
         </member>
-        <member name="M:FaceONNX.PointsExtensions.Abs(System.Drawing.Point,System.Drawing.Point)">
+        <member name="M:FaceONNX.PointsExtensions.Abs(SkiaDrawing.Point,SkiaDrawing.Point)">
             <summary>
             Returns distance for two points.
             </summary>
@@ -370,7 +370,7 @@
             <param name="b">Point</param>
             <returns>Value</returns>
         </member>
-        <member name="M:FaceONNX.PointsExtensions.GetSymmetry(System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)">
+        <member name="M:FaceONNX.PointsExtensions.GetSymmetry(SkiaDrawing.Point,SkiaDrawing.Point,SkiaDrawing.Point)">
             <summary>
             Returns symmetry.
             </summary>
@@ -397,7 +397,7 @@
             Face points.
             </summary>
         </member>
-        <member name="M:FaceONNX.Face5Landmarks.#ctor(System.Drawing.Point[])">
+        <member name="M:FaceONNX.Face5Landmarks.#ctor(SkiaDrawing.Point[])">
             <summary>
             Initializes face 5 landmarks class.
             </summary>
@@ -449,7 +449,7 @@
             Face points.
             </summary>
         </member>
-        <member name="M:FaceONNX.Face68Landmarks.#ctor(System.Drawing.Point[])">
+        <member name="M:FaceONNX.Face68Landmarks.#ctor(SkiaDrawing.Point[])">
             <summary>
             Initializes face 68 landmarks class.
             </summary>
