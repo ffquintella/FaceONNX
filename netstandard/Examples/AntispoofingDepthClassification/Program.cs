@@ -1,6 +1,6 @@
 ﻿using FaceONNX;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 using System.IO;
 using UMapx.Core;
 
@@ -11,7 +11,7 @@ namespace AntispoofingDepthClassification
         static void Main()
         {
             Console.WriteLine("FaceONNX: Antispoofing depth classification");
-            var files = Directory.GetFiles(@"..\..\..\images", "*.*", SearchOption.AllDirectories);
+            var files = Directory.GetFiles(@"../../../images", "*.*", SearchOption.AllDirectories);
             using var faceDepthClassifier = new FaceDepthClassifier();
             var labels = FaceDepthClassifier.Labels;
 

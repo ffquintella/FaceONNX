@@ -1,6 +1,6 @@
 ﻿using FaceONNX;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 using System.IO;
 using UMapx.Visualization;
 
@@ -11,8 +11,8 @@ namespace FaceDetection
         static void Main()
         {
             Console.WriteLine("FaceONNX: Face detection");
-            var files = Directory.GetFiles(@"..\..\..\images", "*.*", SearchOption.AllDirectories);
-            var path = @"..\..\..\results";
+            var files = Directory.GetFiles(@"../../../images", "*.*", SearchOption.AllDirectories);
+            var path = @"../../../results";
             Directory.CreateDirectory(path);
 
             using var faceDetector = new FaceDetector();

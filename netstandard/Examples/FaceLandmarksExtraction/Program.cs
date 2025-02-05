@@ -1,6 +1,6 @@
 ﻿using FaceONNX;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 using System.IO;
 using UMapx.Imaging;
 using UMapx.Visualization;
@@ -12,7 +12,7 @@ namespace FaceLandmarksExtraction
         static void Main()
         {
             Console.WriteLine("FaceONNX: Face landmarks extraction");
-            var files = Directory.GetFiles(@"..\..\..\images", "*.*", SearchOption.AllDirectories);
+            var files = Directory.GetFiles(@"../../../images", "*.*", SearchOption.AllDirectories);
             var path = @"..\..\..\results";
             Directory.CreateDirectory(path);
 

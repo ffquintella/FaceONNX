@@ -1,8 +1,7 @@
 ﻿using FaceONNX;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 using System.IO;
-using System.Linq;
 using UMapx.Core;
 
 namespace EmotionAndBeautyEstimation
@@ -12,8 +11,8 @@ namespace EmotionAndBeautyEstimation
         static void Main()
         {
             Console.WriteLine("FaceONNX: Emotion and beauty estimation");
-            var files = Directory.GetFiles(@"..\..\..\images", "*.*", SearchOption.AllDirectories);
-            var path = @"..\..\..\results";
+            var files = Directory.GetFiles(@"../../../images", "*.*", SearchOption.AllDirectories);
+            var path = @"../../../results";
             Directory.CreateDirectory(path);
 
             using var faceDetector = new FaceDetector();

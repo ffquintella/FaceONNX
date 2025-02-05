@@ -18,7 +18,7 @@ namespace FaceEmbeddingsClassification
             Console.WriteLine("FaceONNX: Face embeddings classification");
 
             var imagePath = Environment.OSVersion.Platform == PlatformID.Unix ? 
-                Path.Combine(".", "images", "fit") : @"..\..\..\images\fit";
+                Path.Combine("..", ".." , "..", "images", "fit") : @"../../../images/fit";
             var fits = Directory.GetFiles(imagePath);
 
             faceDetector = new FaceDetector();
@@ -37,7 +37,7 @@ namespace FaceEmbeddingsClassification
             Console.WriteLine($"Embeddings count: {embeddings.Count}");
 
             var scorePath = Environment.OSVersion.Platform == PlatformID.Unix ? 
-                Path.Combine(".", "images", "score") : @"..\..\..\images\score";
+                Path.Combine("..", ".." , "..", "images", "score") : @"../../../images/score";
             var scores = Directory.GetFiles(scorePath);
 
             Console.WriteLine($"Processing {scores.Length} images");

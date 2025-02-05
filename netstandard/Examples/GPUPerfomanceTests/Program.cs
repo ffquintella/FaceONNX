@@ -1,7 +1,7 @@
 ﻿using FaceONNX;
 using Microsoft.ML.OnnxRuntime;
 using System;
-using System.Drawing;
+using SkiaDrawing;
 
 namespace GPUPerfomanceTests
 {
@@ -10,7 +10,7 @@ namespace GPUPerfomanceTests
         static void Main()
         {
             Console.WriteLine($"FaceONNX: GPU Perfomance tests with CUDA provider");
-            using var bitmap = new Bitmap(@"..\..\..\images\brad.jpg");
+            using var bitmap = new Bitmap(@"../../../images/brad.jpg");
 
             var iterations = 100;
 
