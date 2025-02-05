@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceONNX", "FaceONNX\FaceON
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceONNX.Addons", "FaceONNX.Addons\FaceONNX.Addons.csproj", "{60B372D5-D608-44D5-B7AF-18BC3670F58C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMapx", "..\..\UMapx\sources\UMapx.csproj", "{561103C7-27D2-412C-95DB-D8BC58E4D386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaDrawing", "..\..\SkiaDrawing\SkiaDrawing\SkiaDrawing.csproj", "{06850DC5-1202-4835-B1B1-ECEDD98F5803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{60B372D5-D608-44D5-B7AF-18BC3670F58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B372D5-D608-44D5-B7AF-18BC3670F58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B372D5-D608-44D5-B7AF-18BC3670F58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561103C7-27D2-412C-95DB-D8BC58E4D386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561103C7-27D2-412C-95DB-D8BC58E4D386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561103C7-27D2-412C-95DB-D8BC58E4D386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561103C7-27D2-412C-95DB-D8BC58E4D386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06850DC5-1202-4835-B1B1-ECEDD98F5803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06850DC5-1202-4835-B1B1-ECEDD98F5803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06850DC5-1202-4835-B1B1-ECEDD98F5803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06850DC5-1202-4835-B1B1-ECEDD98F5803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

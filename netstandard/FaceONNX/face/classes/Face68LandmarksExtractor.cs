@@ -3,7 +3,7 @@ using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
+using SkiaDrawing;
 using System.Linq;
 using UMapx.Core;
 using UMapx.Imaging;
@@ -93,7 +93,7 @@ namespace FaceONNX
 
             for (int i = 0; i < image.Length; i++)
             {
-                resized[i] = image[i].Resize(size.Height, size.Width, InterpolationMode.Bilinear);
+                resized[i] = image[i].Resize(size.Height, size.Width, UMapx.Core.InterpolationMode.Bilinear);
             }
 
             var inputMeta = _session.InputMetadata;

@@ -3,7 +3,7 @@ using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
+using SkiaDrawing;
 using System.Linq;
 using UMapx.Core;
 using UMapx.Imaging;
@@ -101,7 +101,7 @@ namespace FaceONNX
 
             for (int i = 0; i < image.Length; i++)
             {
-                resized[i] = image[i].ResizePreserved(size.Height, size.Width, 0.0f, InterpolationMode.Bilinear);
+                resized[i] = image[i].ResizePreserved(size.Height, size.Width, 0.0f, UMapx.Core.InterpolationMode.Bilinear);
             }
 
             // yolo params

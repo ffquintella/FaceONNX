@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>FaceONNX</AssemblyName>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>12</LangVersion>
 	<Version>4.0.4.2</Version>
 	<FileVersion>4.0.4.2</FileVersion>
     <Authors>Valery Asiryan</Authors>
@@ -44,8 +44,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.9.0" />
-    <PackageReference Include="UMapx" Version="6.1.0.3" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.20.1" />
+    <PackageReference Include="System.Memory" Version="4.6.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -72,6 +72,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\UMapx\sources\UMapx.csproj" />
   </ItemGroup>
 
 </Project>
