@@ -101,6 +101,13 @@
             </summary>
             <param name="options">Session options</param>
         </member>
+        <member name="M:FaceONNX.FaceDepthClassifier.#ctor(System.String,Microsoft.ML.OnnxRuntime.SessionOptions)">
+            <summary>
+            Initializes face depth classifier.
+            </summary>
+            <param name="options">Session options</param>
+            <param name="model">Custmo model</param>
+        </member>
         <member name="F:FaceONNX.FaceDepthClassifier.Labels">
             <summary>
             Returns the labels.

@@ -41,15 +41,6 @@ namespace FaceONNX
             _session = new InferenceSession(Resources.depth_googlenet_slim, options);
         }
         
-        /// <summary>
-        /// Initializes face depth classifier.
-        /// </summary>
-        /// <param name="options">Session options</param>
-        /// <param name="model">Custmo model</param>
-        public FaceDepthClassifier(string model, SessionOptions options)
-        {
-            _session = new InferenceSession(model, options);
-        }
 
         #endregion
 
