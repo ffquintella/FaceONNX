@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>FaceONNX</AssemblyName>
     <LangVersion>12</LangVersion>
-	<Version>4.0.4.3</Version>
+	<Version>4.0.4.4</Version>
 	<FileVersion>4.0.4.2</FileVersion>
     <Authors>Valery Asiryan</Authors>
     <Company>Valery Asiryan</Company>
@@ -16,7 +16,7 @@
     <AssemblyVersion>4.0.4.2</AssemblyVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>face detection recognition age gender classification landmarks extraction beauty estimation onnx neural-networks</PackageTags>
-    <RepositoryUrl>https://github.com/FaceONNX/FaceONNX</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ffquintella/FaceONNX</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/FaceONNX/FaceONNX</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
