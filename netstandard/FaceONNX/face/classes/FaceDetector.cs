@@ -237,33 +237,10 @@ namespace FaceONNX
         #region IDisposable
 
         private bool _disposed;
-
-        /// <inheritdoc/>
+        
         public void Dispose()
         {
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-
-        /// <inheritdoc/>
-        protected void Dispose(bool disposing)
-        {
-            if (!_disposed)
-            {
-                if (disposing)
-                {
-                    _session?.Dispose();
-                }
-                _disposed = true;
-            }
-        }
-
-        /// <summary>
-        /// Destructor.
-        /// </summary>
-        ~FaceDetector()
-        {
-            Dispose(false);
+            _session?.Dispose();
         }
 
         #endregion
