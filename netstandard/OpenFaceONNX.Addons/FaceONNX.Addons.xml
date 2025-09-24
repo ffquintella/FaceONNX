@@ -1,191 +1,191 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>FaceONNX.Addons</name>
+        <name>OpenFaceONNX.Addons</name>
     </assembly>
     <members>
-        <member name="T:FaceONNX.FaceAgeEstimator">
+        <member name="T:OpenFaceONNX.FaceAgeEstimator">
             <summary>
             Defines face age estimator.
             </summary>
         </member>
-        <member name="F:FaceONNX.FaceAgeEstimator._session">
+        <member name="F:OpenFaceONNX.FaceAgeEstimator._session">
             <summary>
             Inference session.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.#ctor">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.#ctor">
             <summary>
             Initializes face age estimator.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
             <summary>
             Initializes face age estimator.
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.Forward(SkiaDrawing.Bitmap)">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.Forward(System.Single[0:,0:][])">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.Forward(System.Single[0:,0:][])">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.Dispose">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.Dispose">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceAgeEstimator.Finalize">
+        <member name="M:OpenFaceONNX.FaceAgeEstimator.Finalize">
             <summary>
             Destructor.
             </summary>
         </member>
-        <member name="T:FaceONNX.FaceBeautyEstimator">
+        <member name="T:OpenFaceONNX.FaceBeautyEstimator">
             <summary>
             Defines face beauty estimator.
             </summary>
         </member>
-        <member name="F:FaceONNX.FaceBeautyEstimator._session">
+        <member name="F:OpenFaceONNX.FaceBeautyEstimator._session">
             <summary>
             Inference session.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.#ctor">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.#ctor">
             <summary>
             Initializes face beauty estimator.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
             <summary>
             Initializes face beauty estimator.
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.Forward(SkiaDrawing.Bitmap)">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.Forward(System.Single[0:,0:][])">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.Forward(System.Single[0:,0:][])">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.Dispose">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.Dispose">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceBeautyEstimator.Finalize">
+        <member name="M:OpenFaceONNX.FaceBeautyEstimator.Finalize">
             <summary>
             Destructor.
             </summary>
         </member>
-        <member name="T:FaceONNX.FaceEmotionClassifier">
+        <member name="T:OpenFaceONNX.FaceEmotionClassifier">
             <summary>
             Defines face age classifier.
             </summary>
         </member>
-        <member name="F:FaceONNX.FaceEmotionClassifier._session">
+        <member name="F:OpenFaceONNX.FaceEmotionClassifier._session">
             <summary>
             Inference session.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.#ctor">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.#ctor">
             <summary>
             Initializes face age classifier.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
             <summary>
             Initializes face age classifier.
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="F:FaceONNX.FaceEmotionClassifier.Labels">
+        <member name="F:OpenFaceONNX.FaceEmotionClassifier.Labels">
             <summary>
             Returns the labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.Forward(SkiaDrawing.Bitmap)">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.Forward(System.Single[0:,0:][])">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.Forward(System.Single[0:,0:][])">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.Dispose">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.Dispose">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceEmotionClassifier.Finalize">
+        <member name="M:OpenFaceONNX.FaceEmotionClassifier.Finalize">
             <summary>
             Destructor.
             </summary>
         </member>
-        <member name="T:FaceONNX.FaceGenderClassifier">
+        <member name="T:OpenFaceONNX.FaceGenderClassifier">
             <summary>
             Defines face gender classifier.
             </summary>
         </member>
-        <member name="F:FaceONNX.FaceGenderClassifier._session">
+        <member name="F:OpenFaceONNX.FaceGenderClassifier._session">
             <summary>
             Inference session.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.#ctor">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.#ctor">
             <summary>
             Initializes face gender classifier.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.#ctor(Microsoft.ML.OnnxRuntime.SessionOptions)">
             <summary>
             Initializes face gender classifier.
             </summary>
             <param name="options">Session options</param>
         </member>
-        <member name="F:FaceONNX.FaceGenderClassifier.Labels">
+        <member name="F:OpenFaceONNX.FaceGenderClassifier.Labels">
             <summary>
             Returns the labels.
             </summary>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.Forward(SkiaDrawing.Bitmap)">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.Forward(SkiaDrawing.Bitmap)">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.Forward(System.Single[0:,0:][])">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.Forward(System.Single[0:,0:][])">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.Dispose">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.Dispose">
             <inheritdoc/>
         </member>
-        <member name="M:FaceONNX.FaceGenderClassifier.Finalize">
+        <member name="M:OpenFaceONNX.FaceGenderClassifier.Finalize">
             <summary>
             Destructor.
             </summary>
         </member>
-        <member name="T:FaceONNX.Addons.Properties.Resources">
+        <member name="T:OpenFaceONNX.Addons.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.ResourceManager">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.ResourceManager">
             <summary>
               Returns the cached ResourceManager instance used by this class.
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.Culture">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.Culture">
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.age_efficientnet_b2">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.age_efficientnet_b2">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.beauty_resnet18">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.beauty_resnet18">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.emotion_cnn">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.emotion_cnn">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
         </member>
-        <member name="P:FaceONNX.Addons.Properties.Resources.gender_efficientnet_b2">
+        <member name="P:OpenFaceONNX.Addons.Properties.Resources.gender_efficientnet_b2">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
