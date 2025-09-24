@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>FaceONNX</name>
+        <name>OpenFaceONNX</name>
     </assembly>
     <members>
         <member name="T:FaceONNX.EyeBlinkClassifier">
@@ -166,17 +166,6 @@
         </member>
         <member name="M:FaceONNX.FaceDetector.Forward(System.Single[0:,0:][])">
             <inheritdoc/>
-        </member>
-        <member name="M:FaceONNX.FaceDetector.Dispose">
-            <inheritdoc/>
-        </member>
-        <member name="M:FaceONNX.FaceDetector.Dispose(System.Boolean)">
-            <inheritdoc/>
-        </member>
-        <member name="M:FaceONNX.FaceDetector.Finalize">
-            <summary>
-            Destructor.
-            </summary>
         </member>
         <member name="T:FaceONNX.FaceEmbedder">
             <summary>

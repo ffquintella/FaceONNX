@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <AssemblyName>FaceONNX</AssemblyName>
     <LangVersion>12</LangVersion>
 	<Version>4.0.7</Version>
 	<FileVersion>4.0.5</FileVersion>
@@ -11,7 +10,7 @@
     <Description>Face recognition and analytics library based on deep neural networks and ONNX runtime.</Description>
     <Copyright>Valery Asiryan, © 2020-2025</Copyright>
     <RepositoryType>Open-source</RepositoryType>
-    <PackageId>FaceONNX</PackageId>
+    <PackageId>OpenFaceONNX</PackageId>
     <Product>FaceONNX</Product>
     <AssemblyVersion>4.0.5</AssemblyVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -22,6 +21,7 @@
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageIcon>FaceONNX.png</PackageIcon>
     <NeutralLanguage>en</NeutralLanguage>
+    <RootNamespace>FaceONNX</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

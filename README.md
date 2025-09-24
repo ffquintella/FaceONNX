@@ -2,29 +2,29 @@
 <p align="center"> Face recognition and analytics library based on deep neural networks and <b>ONNX</b> runtime </p>  
 <p align="center"><i> A vision of what might lie across the universe... </i></p>  
 
-# FaceONNX
-**FaceONNX** is a face recognition and analytics library based on [ONNX](https://onnx.ai/) runtime. It containts ready-made deep neural networks for face
+# OpenFaceONNX
+**OpenFaceONNX** is a face recognition and analytics library based on [ONNX](https://onnx.ai/) runtime. It containts ready-made deep neural networks for face
 * detection and landmarks extraction,
 * gender and age classification,
 * emotion and beauty classification,
 * embeddings comparison and more.  
 
 # Version
-You can build **FaceONNX** from sources or install to your own project using nuget package manager.
+You can build **OpenFaceONNX** from sources or install to your own project using nuget package manager.
 | Assembly | Specification | OS | Package | Algebra |
 |-------------|:-------------:|:-------------:|:--------------:|:--------------:|
-| [FaceONNX](netstandard/FaceONNX) | .NET Standard 2.0 | Cross-platform | [NuGet](https://www.nuget.org/packages/FaceONNX/) | [UMapx](https://github.com/asiryan/UMapx) |
-| [FaceONNX.Addons](netstandard/FaceONNX.Addons) | .NET Standard 2.0 | Cross-platform | [NuGet](https://www.nuget.org/packages/FaceONNX.Addons/) | [UMapx](https://github.com/asiryan/UMapx) |
+| [OpenFaceONNX](netstandard/FaceONNX) | .NET Standard 2.0 | Cross-platform | [NuGet](https://www.nuget.org/packages/FaceONNX/) | [UMapx](https://github.com/asiryan/UMapx) |
+| [OpenFaceONNX.Addons](netstandard/FaceONNX.Addons) | .NET Standard 2.0 | Cross-platform | [NuGet](https://www.nuget.org/packages/FaceONNX.Addons/) | [UMapx](https://github.com/asiryan/UMapx) |
 
 # Installation
 C# interface  
 ```c#
-using FaceONNX;
+using OpenFaceONNX;
 ```
-To get started with **FaceONNX**, it is recommended to look at the folder with [examples](netstandard/Examples) and [experiments](netstandard/Experiments).  
+To get started with **OpenFaceONNX**, it is recommended to look at the folder with [examples](netstandard/Examples) and [experiments](netstandard/Experiments).  
 
 # References 
 [ONNX models](https://github.com/FaceONNX/FaceONNX.Models)  
 
 # License
-**FaceONNX** is released under the [MIT](LICENSE) license.
+**OpenFaceONNX** is released under the [MIT](LICENSE) license.
